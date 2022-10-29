@@ -149,7 +149,7 @@
 }
 
 .enter-text {
-    width: 226px
+    width: 226px;
 }
 
 .remove-image {
@@ -173,12 +173,12 @@
 /* Edit Task */
 
 .enter-text {
-    display: none
+    display: none;
 }
 
 .edit-mode-enter {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit-mode-elem {
