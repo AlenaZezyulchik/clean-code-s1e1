@@ -11,6 +11,12 @@
     text-align: right;
 }
 
+@media (max-width:768px) {
+    .header-wrapper {
+        text-align: center;
+    }
+}
+
 .header-wrapper__img {
     width: 100%;
 }
@@ -84,6 +90,7 @@
 }
 
 .tasks-list__enter-text {
+    display: inline-block;
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -94,6 +101,7 @@
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
+    width: 226px;
 }
 
 .tasks-list__enter-text:focus {
@@ -105,11 +113,6 @@
     margin: 0 0 20px;
 }
 
-.tasks-list__enter-text {
-    width: 318px;
-    display: inline-block;
-}
-
 .tasks-list__tasks-items {
     overflow: hidden;
     padding: 20px 0;
@@ -117,9 +120,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.tasks-list__tasks-items {
     vertical-align: middle;
 }
 
@@ -131,10 +131,6 @@
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
-    width: 226px;
-}
-
-.tasks-list__enter-text {
     width: 226px;
 }
 
@@ -164,10 +160,4 @@
 
 .edit-mode .tasks-list__edit-mode-elem {
     display: none;
-}
-
-@media (max-width:768px) {
-    .header-wrapper {
-        text-align: center;
-    }
 }
